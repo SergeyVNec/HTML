@@ -5,8 +5,236 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assets/owl.carousel.min.css" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--script src="/js/menu.js"></script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
 </head>
 <body>
+    <header>
+        <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+        
+            <ul class="menu">
+                <li><a class="menu__item" href="#">Главная</a></li>
+                <li><a class="menu__item" href="#">Услуги</a></li>
+                <li><a class="menu__item" href="#">Курс "Кто ты"</a></li>
+                <li><a class="menu__item" href="#">Вебинары</a></li>
+            </ul>
+          </div>
+
+
+
+
+        
+    </header>
+    <section class="about">
+        <div class="about_desc">
+            <h1>Ольга Агуреева</h1>
+            <p class="whoami">Кто Я?</p>
+            <p class="whoami_text">Меня зовут Ольга Агуреева.</p>
+            <p class="whoami_text">Остеопат. Практический психолог. Психосоматолог.</p>
+            <p class="whoami_text">Я занимаюсь изучением и практическим применением знаний и навыков для улучшения здоровья и состояния человека (физического, эмоционального, энергетического), функциональную медицину.</p>
+        </div>
+        <div class="about_foto"><img src="img/foto_main.jpg" width="100%"></div>
+    </section>
+    <section>
+        <div class="section_numbers">
+            <div class="numbers">
+                <div class="num_item">15 000+<br><div>часов практики</div></div>
+                <div class="num_item">10 000+<br><div>довольных клиентов</div></div>
+                <div class="num_item">100%<br><div>конфиденциально</div></div>
+                <div class="num_item">1 000+<br><div>методик психо/физиологической коррекции</div></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="servise">
+            <h2>Услуги и продукты</h2>
+            <h3>Узнайте больше о формате, инструментах и результате</h3>
+            <div class="owl-carousel owl-theme servise_slide">
+                <div class="servise1 serv_item">
+                    <img src="/img/serv_img1.jpg">
+                    <h4>Консультация</h4>
+                    <p>Анализ и разбор состояния здоровья, жизненной истории</p>
+                    <a href="/">Подробнее</a>
+                </div>
+                <div class="servise2 serv_item">
+                    <img src="/img/serv_img2.jpg">
+                    <h4>Терапия</h4>
+                    <p>Проработка индивидуальных запросов с применением техник</p>
+                    <a href="/">Подробнее</a>
+                </div>
+                <div class="servise3 serv_item">
+                    <img src="/img/serv_img3.jpg">
+                    <h4>Наставничесвто</h4>
+                    <p>Консультации и работа по всем жизненным сферам</p>
+                    <a href="/">Подробнее</a>
+                </div>
+                <div class="servise4 serv_item">
+                    <img src="/img/serv_img4.jpg">
+                    <h4>Наставничество для специалистов</h4>
+                    <p>Работа в личном контакте 1 месяц</p>
+                    <a href="/">Подробнее</a>
+                </div>
+                <div class="servise4 serv_item">
+                    <img src="/img/serv_img5.jpg">
+                    <h4>Вопрос-ответ</h4>
+                    <p>Развернутый вопрос от Вас и мой ответ в месенджере</p>
+                    <a href="/">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <h2>Курс “Кто Ты”</h2>
+        <h3>Курс, который перевернет Ваш мир</h3>
+        <div class="video_code">
+            <img src="/img/video.jpg">
+        </div>
+        <div class="info">
+            <a href="/">Информация в процессе подготовки. Скоро она появится</a>
+        </div>
+    </section>
+    <section class="vebinars_section">
+        <div class="vebinars">
+            <div class="veb_info">
+                <a href="/">Доступ к записям скоро появится</a>
+                <p class="veb_name">Вебинары</p>
+                <div class="veb_links">
+                    <div><a href="/">Род</a></div>
+                    <div><img src="/img/flower.png"></div>
+                    <div><a href="/">Дети</a></div>
+                </div>
+            </div>
+            <div class="veb_img">
+                <div class="veb_img1"><img src="/img/vebinars_img1.jpg"></div>
+                <div class="veb_img2"><img src="/img/vebinars_img2.jpg"></div>
+                <div class="veb_img3"><img src="/img/vebinars_img3.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <section class="keys">
+        <h2>Кейсы</h2>
+        <div class="owl-carousel owl-theme keys_img">
+            <div><img src="img/keys/keys1.jpg" alt="" /></div>
+            <div><img src="img/keys/keys2.jpg" alt="" /></div>
+            <div><img src="img/keys/keys3.jpg" alt="" /></div>
+            <div><img src="img/keys/keys4.jpg" alt="" /></div>
+            <div><img src="img/keys/keys5.jpg" alt="" /></div>
+            <div><img src="img/keys/keys6.jpg" alt="" /></div>
+            <div><img src="img/keys/keys7.jpg" alt="" /></div>
+            <div><img src="img/keys/keys8.jpg" alt="" /></div>
+            <div><img src="img/keys/keys9.jpg" alt="" /></div>
+            <div><img src="img/keys/keys10.jpg" alt="" /></div>
+            <div><img src="img/keys/keys11.jpg" alt="" /></div>
+        </div>
+    </section>
+    <section class="diploma">
+        <h2>Мои дипломы</h2>
+        <div class="owl-carousel owl-theme diploma_img">
+            <div><img src="img/diploma/diplom1.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom2.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom3.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom4.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom5.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom6.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom7.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom8.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom9.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom10.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom11.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom12.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom13.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom14.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom15.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom16.jpg" alt="" /></div>
+            <div><img src="img/diploma/diplom17.jpg" alt="" /></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <ul>
+                    <li><a href="https://t.me/agvento1" class="ico_tg">+38 (050) 134 07 07</a></li>
+                    <li><a href="https://instagram.com/agureeva_o" class="ico_inst">@agureeva_o</a></li>
+                    <li><a  href="mailto:agureevaolga.osteo@gmail.com" class="ico_mail">agureevaolga.osteo@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+                <p>ФЛП Агуреева Ольга Геннадиевна<br>
+                    ИНН 3146904789</p>
+                <p><a href="/" class="offer">Договор публичной оферты</a></p>
+                <p>Использование в коммерческих целях каких-либо материалов или элементов без письменного 
+                    разрешения собственника сайта запрещено.</p>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- javascript --> 
+<script>
+    jQuery(document).ready(function($) {
+              $('.servise_slide').owlCarousel({
+                center: true,
+                nav: true,
+                items: 3,
+                loop: true,
+                margin: 10,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    481: {
+                        items: 2
+                    },
+                    960: {
+                        items: 3
+                    }
+                }
+              });
+              $('.keys_img').owlCarousel({
+                center: true,
+                nav: true,
+                items: 1,
+                loop: false,
+                responsive: {
+                  600: {
+                    items: 1
+                  }
+                }
+              });
+              $('.diploma_img').owlCarousel({
+                center: true,
+                nav: true,
+                items: 1,
+                loop: false,
+                responsive: {
+                  600: {
+                    items: 1
+                  }
+                }
+              });
+            });
+
+            
+            
     
+  </script>
+  
+
+<script src="../js/owl.carousel.js"></script>
 </body>
 </html>
