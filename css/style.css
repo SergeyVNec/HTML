@@ -100,7 +100,7 @@ header ul li a:hover {
 .whoami_text {
     font-family:"Constantia";
     color:#50321f;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px 0;
     line-height: 24px;
 }
@@ -110,7 +110,7 @@ header ul li a:hover {
 
 /*-------------SECTION NUMBERS-------------*/
 .section_numbers {
-    background:url(/img/bg_info.png) repeat;
+    background:url(../img/bg_info.png) repeat;
 }
 .numbers {
     height: 265px;
@@ -176,7 +176,7 @@ header ul li a:hover {
 }
 .serv_item h4 {
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 28px;
     color: #484a4b;
 }
 .serv_item p {
@@ -208,27 +208,27 @@ header ul li a:hover {
 .owl-prev {
     width: 49px;
     height: 49px;
-    background:url(/img/arrow_left.png) no-repeat !important;
+    background:url(../img/arrow_left.png) no-repeat !important;
     margin-right: 20px;
     transition: all 0.5s;
 }
 .owl-prev:hover {
     width: 49px;
     height: 49px;
-    background:url(/img/arrow_left_active.png) no-repeat !important;
+    background:url(../img/arrow_left_active.png) no-repeat !important;
     transition: all 0.5s;
 }
 .owl-next {
     width: 49px;
     height: 49px;
-    background:url(/img/arrow_right.png) no-repeat !important;
+    background:url(../img/arrow_right.png) no-repeat !important;
     margin-left: 20px;
     transition: all 0.5s;
 }
 .owl-next:hover {
     width: 49px;
     height: 49px;
-    background:url(/img/arrow_right_active.png) no-repeat !important;
+    background:url(../img/arrow_right_active.png) no-repeat !important;
     transition: all 0.5s;
 }
 .owl-nav {
@@ -268,7 +268,7 @@ header ul li a:hover {
     position: absolute;
     width: 243px;
     height: 228px;
-    background:url(/img/square_left.png) no-repeat;
+    background:url(../img/square_left.png) no-repeat;
     z-index: 0;
     left: -25px;
     bottom: -25px;
@@ -278,7 +278,7 @@ header ul li a:hover {
     position: absolute;
     width: 499px;
     height: 310px;
-    background:url(/img/square_right.png) no-repeat;
+    background:url(../img/square_right.png) no-repeat;
     z-index: 2;
     right: -40px;
     top: -40px;
@@ -303,13 +303,13 @@ header ul li a:hover {
     margin-top: -50px;
     line-height: 20px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 30px;
 }
 
 /*-----------------SECTION VEBINARS-----------------*/
 .vebinars_section {
     height: 310px;
-    background:url(/img/bg_info.png) repeat;
+    background:url(../img/bg_info.png) repeat;
     margin-top: 150px;
 }
 .vebinars {
@@ -329,10 +329,10 @@ header ul li a:hover {
     background-color: #454545;
     border: #454545 1px;
     border-radius: 25px;
-    padding: 8px 16px;
+    padding: 12px 28px;
     line-height: 20px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 31px;
 }
 .veb_info p {
     font-family: 'Playfair Display', serif;
@@ -342,7 +342,7 @@ header ul li a:hover {
 }
 .veb_links {
     display: flex;
-    margin-top: 30px;
+    margin-top: 75px;
     justify-content: center;
     align-items: center;
 }
@@ -383,7 +383,7 @@ header ul li a:hover {
     height: 95px;
     background-color:#678777;
     background-color: #678777 !important;
-    background-image: url(/img/keys_arrow_left.png) !important;
+    background-image: url(../img/keys_arrow_left.png) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
@@ -398,7 +398,7 @@ header ul li a:hover {
     width: 95px;
     height: 95px;
     background-color: #678777 !important;
-    background-image: url(/img/keys_arrow_right.png) !important;
+    background-image: url(../img/keys_arrow_right.png) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
@@ -420,20 +420,20 @@ header ul li a:hover {
 }
 .diploma_img {
     width: 500px !important;
-    height: 600px;
+    height: 490px;
     border:#678777 4px solid;
     margin: 50px auto 0 auto;
     padding: 40px 100px;
 }
 .diploma_img .owl-prev {
-    top: 250px;
+    top: 190px;
     position: absolute;
     left: -50px;
     width: 95px;
     height: 95px;
     background-color:#678777;
     background-color: #678777 !important;
-    background-image: url(/img/keys_arrow_left.png) !important;
+    background-image: url(../img/keys_arrow_left.png) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
@@ -442,13 +442,13 @@ header ul li a:hover {
     transform: scale(0.9);
 }
 .diploma_img .owl-next {
-    top: 250px;
+    top: 190px;
     position: absolute;
     right: -50px;
     width: 95px;
     height: 95px;
     background-color: #678777 !important;
-    background-image: url(/img/keys_arrow_right.png) !important;
+    background-image: url(../img/keys_arrow_right.png) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
@@ -477,13 +477,13 @@ footer {
     flex: 1;
 }
 .ico_tg {
-    background:url(/img/ico_tg.png) no-repeat left center;
+    background:url(../img/ico_tg.png) no-repeat left center;
 }
 .ico_inst {
-    background:url(/img/ico_inst.png) no-repeat left center;
+    background:url(../img/ico_inst.png) no-repeat left center;
 }
 .ico_mail {
-    background:url(/img/ico_mail.png) no-repeat left center;
+    background:url(../img/ico_mail.png) no-repeat left center;
 }
 .contact ul {
     padding-left: 35%;
@@ -508,4 +508,631 @@ footer {
 .offer {
     text-decoration: none;
     color: #fff;
+}
+
+
+
+
+/*------------------------------------------*/
+/*--------------SERVICES PAGE---------------*/
+/*------------------------------------------*/
+.service_h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    color: #484a4b;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+/*---------QA Section-------------*/
+.qa {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    clear: both;
+}
+.img_left {
+    flex: 1;
+    position: relative;
+}
+.img_left img {
+    position: relative;
+    z-index: 20;
+}
+/*.img_left:before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    background-color: #678777;
+    z-index: 0;
+    top: -15px;
+    right: 20px;
+}
+.img_left:after {
+    content: "";
+    position: absolute;
+    width: 275px;
+    height: 250px;
+    border:#678777 5px solid;
+    z-index: 2;
+    left: -20px;
+    bottom: -20px
+}*/
+.text_right {
+    flex: 1;
+    padding-left: 50px;
+}
+.text_right h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #484a4b;
+    float: left;
+    line-height: 60px;
+}
+.text_right a {
+    float: left;
+    font-family: 'Century Gothic Regular';
+    color: #e2ded2;
+    background-color: #454545;
+    text-decoration: none;
+    border: #454545 1px;
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.text_right p {
+    font-family: 'Playfair Display Normal', serif;
+    font-size: 27px;
+    color: #50321f;
+    font-weight: normal;
+    clear: both;
+    /*line-height: 35px;*/
+}
+.simpl_text {
+    margin-top: 120px;
+}
+.text_right_big {
+    font-size: 30px !important;
+    font-family: 'Playfair Display', serif !important;
+    margin: 30px 0;
+}
+
+/*--------CONSULTATION Section-------------*/
+.consultation {
+    max-width: 1200px;
+    margin: 150px auto;
+    display: flex;
+    clear: both;
+}
+.img_right {
+    flex: 1;
+    position: relative;
+}
+.img_right img {
+    position: relative;
+    z-index: 20;
+}
+/*.img_right:before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    background-color: #678777;
+    z-index: 0;
+    top: -15px;
+    left: -20px;
+}
+.img_right:after {
+    content: "";
+    position: absolute;
+    width: 275px;
+    height: 250px;
+    border:#678777 5px solid;
+    z-index: 2;
+    right: 30px;
+    bottom: -20px
+}*/
+.text_left {
+    flex: 1;
+    padding-left: 50px;
+}
+.text_left h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #484a4b;
+    float: left;
+    line-height: 60px;
+}
+.text_left a {
+    float: left;
+    font-family: 'Century Gothic Regular';
+    color: #e2ded2;
+    background-color: #454545;
+    text-decoration: none;
+    border: #454545 1px;
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.text_left p {
+    font-family: 'Playfair Display Normal', serif;
+    font-size: 27px;
+    color: #50321f;
+    font-weight: normal;
+    clear: both;
+    /*line-height: 35px;*/
+}
+.text_left ul li {
+    font-family: 'Playfair Display Normal', serif;
+    font-size: 27px;
+    color: #50321f;
+    font-weight: normal;
+    /*line-height: 35px;*/
+}
+.text_left ul {
+    list-style-type: disc;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.simpl_text {
+    margin-top: 120px;
+}
+.text_right_big {
+    font-size: 30px !important;
+    font-family: 'Playfair Display', serif !important;
+    margin: 30px 0;
+}
+
+
+/*--------------THERAPY Section--------------*/
+.therapy {
+    max-width: 1200px;
+    margin: 150px auto 50px;
+    display: flex;
+    clear: both;
+}
+.text_right ul li {
+    font-family: 'Playfair Display Normal', serif;
+    font-size: 27px;
+    color: #50321f;
+    font-weight: normal;
+    /*line-height: 35px;*/
+}
+.text_right ul {
+    list-style-type: disc;
+    padding-right: 20px;
+}
+.therapy_list {
+    margin-left: 40px;
+}
+.therapy_list_next {
+    margin-left: 20px;
+}
+.therapy_next {
+    max-width: 1200px;
+    margin: 0px auto;
+    
+}
+.therapy_next h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #50321f;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.queries {
+    display: flex;
+}
+.queries_col {
+    flex: 1;
+}
+.queries_col ul {
+    list-style-type: disc;
+}
+.queries_col ul li {
+    font-family: 'Playfair Display Normal', serif;
+    font-size: 27px;
+    color: #50321f;
+    font-weight: normal;
+    margin-left: 45px;
+    padding-right: 20px;
+}
+
+
+/*--------------MENTORING Section---------------*/
+.mentoring {
+    max-width: 1200px;
+    margin: 150px auto 50px;
+    display: flex;
+    clear: both;
+}
+.mentoring ul li {
+    padding-right: 20px;
+}
+
+
+/*--------------MENTORING SPECIALIST Section---------------*/
+.mentoring_spec {
+    max-width: 1200px;
+    margin: 150px auto 50px;
+    display: flex;
+    clear: both;
+}
+.mentoring_spec .img_left .text_right_big {
+    font-size: 30px !important;
+    font-family: 'Playfair Display', serif !important;
+    margin: 30px 0;
+    color:#50321f;
+}
+.mentoring_spec .img_left p {
+    font-family: 'Playfair Display Normal', serif;
+    font-size: 27px;
+    color: #50321f;
+    padding: 0 40px;
+}
+.mentoring_spec .text_right h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #484a4b;
+    float: left;
+    line-height: 40px;
+}
+
+
+/*--------------HOW TO Section----------------*/
+.howto {
+    max-width: 1200px;
+    margin: 150px auto 50px;
+    clear: both;
+    background:url(../img/howto_bg.png) center 120px no-repeat;
+}
+.howto h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #50321f;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.howto_desc {
+    display: flex;
+}
+.howto_desc_left, .howto_desc_right {
+    flex: 1;
+    height: 150px;
+}
+.howto_desc_left {
+    text-align: right;
+    padding-right: 50px;
+}
+.howto_desc_left h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color:#484a4b;
+    padding-bottom: 10px;
+}
+.howto_desc_left p {
+    font-family:"Constantia";
+    font-weight: bold;
+    font-size: 20px;
+    color: #765a33;
+    padding-left: 135px;
+}
+.howto_desc_right {
+    text-align: left;
+    padding-left: 50px;
+}
+.howto_desc_right h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color:#484a4b;
+    padding-bottom: 10px;
+}
+.howto_desc_right p {
+    font-family:"Constantia";
+    font-weight: bold;
+    font-size: 20px;
+    color: #765a33;
+    padding-right: 135px;
+}
+
+
+
+
+/*---------------------------------------------*/
+/*--------------WHO YOU ARE PAGE---------------*/
+/*---------------------------------------------*/
+.who_h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    color: #484a4b;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.whotopimg {
+    max-width: 670px;
+    margin: 0 auto;
+}
+.whotopimg img {
+    margin: 0 10px 150px 10px;
+}
+.whoabout {
+    max-width: 870px;
+    margin: 0 auto;
+    text-align: center;
+}
+.whoabout h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color:#50321f;
+    font-weight: bold;
+}
+.whoabout p {
+    font-family:"Constantia";
+    color:#50321f;
+    font-size: 27px;
+    font-style: italic;
+}
+.whodescmain {
+    max-width: 1200px;
+    background:url(/img/whodescseparate.png) no-repeat center 15px;
+    margin:140px auto 0 auto;
+}   
+.whodesc {
+    display: flex;
+}
+.whodescleft, .whodescright {
+    flex: 1;
+}
+.whodescleft h4, .whodescright h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #484a4b;
+    padding-bottom: 10px;
+}
+.whodescleft p, .whodescright p {
+    font-family: "Constantia";
+    font-weight: bold;
+    font-size: 20px;
+    color: #765a33;
+}
+.whodescleft {
+    text-align: right;
+    padding-right: 50px;
+}
+.whodescright {
+    text-align: left;
+    padding-left: 50px;
+}
+.whodescleft p {
+    padding-left: 135px;
+}
+.whodescleft1 {
+    height: 220px;
+}
+.whodescright2 {
+    height: 165px;
+}
+.whodescleft3 {
+    height: 195px;
+}
+.contain {
+    max-width: 1200px;
+    margin: 150px auto 0 auto;
+    display: flex;
+}
+.containfoto {
+    flex: 1;
+}
+.containdesc {
+    flex: 1;
+}
+.containdesc h4 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    color: #484a4b;
+    margin-bottom: 40px;
+}
+.containdesc ul, .containdesc h4 {
+    padding-left: 50px;
+}
+.containdesc ul {
+    margin-left: 25px;
+}
+.containdesc ul li {
+    font-family:"Constantia";
+    color:#50321f;
+    font-size: 27px;
+    list-style-type: disc;
+    padding: 5px 0;
+    line-height: 36px;
+}
+
+/*-------------------FOR WHO----------------------*/
+.forwhotitle {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color:#50321f;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.forwho {
+    width: 100%;
+    background: url(../img/bg_info.png) repeat;
+}
+.forwhodesc {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 250px;
+    align-items: center;
+}
+.forwhodesc div {
+    flex: 1;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color:#fff;
+    text-align: center;
+    padding: 0 50px;
+    align-items: center;
+}
+
+/*---------------HOW DOES IT GO-----------------*/
+.howitgo {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color:#50321f;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.howitgodesc {
+    text-align: center;
+    font-family: "Constantia";
+    color: #50321f;
+    font-size: 27px;
+    font-style: italic;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 160px;
+}
+
+/*----------------WHO ARE YOU KEYS-----------------*/
+.whoareyoukeys {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #484a4b;
+    text-align: center;
+    margin-top: 140px;
+}
+.whoareyoukeys_img {
+    width: 500px !important;
+    height: 600px;
+    border: #678777 4px solid;
+    margin: 50px auto 0 auto;
+    padding: 40px 100px;
+}
+.whoareyoukeys_img .owl-prev {
+    top: 250px;
+    position: absolute;
+    left: -50px;
+    width: 95px;
+    height: 95px;
+    background-color: #678777;
+    background-color: #678777 !important;
+    background-image: url(../img/keys_arrow_left.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.whoareyoukeys_img .owl-prev:hover {
+    box-shadow:0px 0px 6px 4px #9fa2a3;
+    transform: scale(0.9);
+}
+.whoareyoukeys_img .owl-next {
+    top: 250px;
+    position: absolute;
+    right: -50px;
+    width: 95px;
+    height: 95px;
+    background-color: #678777 !important;
+    background-image: url(../img/keys_arrow_right.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.whoareyoukeys_img .owl-next:hover {
+    box-shadow:0px 0px 6px 5px #9fa2a3;
+    transform: scale(0.9); 
+}
+
+/*---------------BUY BUTTON-----------------*/
+.price {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #484a4b;
+    text-align: center;
+    margin-top: 140px;
+}
+.buybutton {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.buy {
+    text-align: center;
+    font-size: 32px;
+    color:#e6e3da;
+    font-family: 'Century Gothic';
+    background-color:#454545;
+    padding: 20px 40px;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------*/
+/*------------------VEBINARS PAGE-------------------*/
+/*--------------------------------------------------*/
+.veblinks {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.veblinksleft {
+    flex: 1;
+    text-align: end;
+    margin-right: 50px;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.veblinksright {
+    flex: 1;
+    margin-left: 50px;
+    /*display: flex;*/
+    flex-direction: column;
+}
+.emotions, .weight, .psiho, .dream {
+    width: 386px;
+    flex:1;
+    background-color: #e6e3da;
+    -webkit-box-shadow: 0px 5px 8px 2px rgba(69, 69, 69, 0.24);
+    -moz-box-shadow: 0px 5px 8px 2px rgba(69, 69, 69, 0.24);
+    box-shadow: 0px 5px 8px 2px rgba(69, 69, 69, 0.24);
+    text-align: left;
+}
+.emotions a, .weight a, .psiho a, .dream a {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #484a4b;
+    text-align: left;
+    text-decoration: none;
+}
+.emotions div, .weight div, .psiho div, .dream div {
+    margin: 40px 0 40px 20px;
+}
+.emotions, .weight {
+    float: right;
+    
+}
+.psiho, .dream {
+    float: left;
+}
+.dream div p {
+    font-family:"Constantia";
+    color:#50321f;
+    font-size: 18px;
+    margin-top: 10px;
 }

@@ -23,7 +23,7 @@
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
+    /*position: fixed;*/
     top: 20px;
     left: 20px;
   
@@ -97,7 +97,9 @@
 
   
   
-
+  header ul li {
+    line-height: 20px;
+  }
   .about_desc h1 {
     margin-top: 40px;
   }
@@ -136,7 +138,13 @@
     margin-top: 70px;
   }
   .veb_info a {
-    font-size: 4vw;
+    font-size: 6vw;
+  }
+  .veb_links {
+    margin-top: 30px;
+  }
+  .veb_img {
+    padding-bottom: 60px;
   }
   .veb_info p {
     font-size: 17vw;
@@ -205,7 +213,7 @@
     width: 100%;
   }
   .info a {
-    font-size: 2vw;
+    font-size: 6vw;
   }
 
 
@@ -271,7 +279,13 @@
     margin-top: 70px;
   }
   .veb_info a {
-    font-size: 3vw;
+    font-size: 6vw;
+  }
+  .veb_links {
+    margin-top: 30px;
+  }
+  .veb_img {
+    padding-bottom: 60px;
   }
   .veb_info p {
     font-size: 10vw;
@@ -340,7 +354,7 @@
     width: 100%;
   }
   .info a {
-    font-size: 2vw;
+    font-size: 6vw;
   }
 
 
@@ -401,13 +415,15 @@
     width: 100%;
   }
   .info a {
-    font-size: 2vw;
+    font-size: 6vw;
   }
-
+  .veb_info {
+    padding-top: 30px;
+  }
   .servise_slide {
     max-width: 100%;
     width: 100%;
-}
+  }
 
 
   .vebinars {
@@ -458,7 +474,7 @@
     font-size: 50px;
   }
   .veb_info a {
-    font-size: 12px;
+    font-size: 30px;
   }
   .veb_img div {
     margin-left: -2px;
@@ -515,4 +531,442 @@
   .banner_img {
     width: 70%;
   }
+}
+
+
+
+/*--------------------------------------------*/
+/*----------------SERVICES PAGE---------------*/
+/*--------------------------------------------*/
+@media all and (max-width: 480px) {
+  .service_h1 {
+    margin-bottom: 100px;
+  }
+  .text_right {
+    padding-left: 20px;
+  }
+  .text_left {
+    padding-left: 20px;
+  }
+  .qa, .therapy, .queries, .mentoring_spec {
+    flex-direction: column;
+  }
+  .consultation, .mentoring {
+    flex-direction: column-reverse;
+  }
+  .img_left img, .img_right img {
+    width: 100%;
+  }
+  .howto {
+    background: url(../img/howto_bg.png) 10px 120px no-repeat;
+  }
+  .howto_desc_left, .howto_desc_right {
+    text-align: left;
+  }
+  .howto_desc_left p {
+    padding-left: 50px;
+  }
+  .howto_desc_left {
+    padding-right: 0px;
+  }
+  .howto_desc_left h4 {
+    padding-left: 50px;
+  }
+  .howto .howto_desc:nth-child(2n) .howto_desc_left {
+    min-width: 100%;
+  }
+  .howto .howto_desc:nth-child(2n) .howto_desc_right {
+    display: none;
+  }
+  .howto .howto_desc:nth-child(2n+1) .howto_desc_right {
+    min-width: 100%;
+  }
+  .howto .howto_desc:nth-child(2n+1) .howto_desc_left {
+    display: none;
+  }
+  .howto_desc_right p {
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  .service_h1 {
+    margin-bottom: 100px;
+  }
+  .text_right {
+    padding-left: 20px;
+  }
+  .text_left {
+    padding-left: 20px;
+  }
+  .qa, .therapy, .queries, .mentoring_spec {
+    flex-direction: column;
+  }
+  .consultation, .mentoring {
+    flex-direction: column-reverse;
+  }
+  .img_left img, .img_right img {
+    width: 100%;
+  }
+  .howto {
+    background: url(../img/howto_bg.png) 10px 120px no-repeat;
+  }
+  .howto_desc_left, .howto_desc_right {
+    text-align: left;
+  }
+  .howto_desc_left p {
+    padding-left: 50px;
+  }
+  .howto_desc_left {
+    padding-right: 0px;
+  }
+  .howto_desc_left h4 {
+    padding-left: 50px;
+  }
+  .howto .howto_desc:nth-child(2n) .howto_desc_left {
+    min-width: 100%;
+  }
+  .howto .howto_desc:nth-child(2n) .howto_desc_right {
+    display: none;
+  }
+  .howto .howto_desc:nth-child(2n+1) .howto_desc_right {
+    min-width: 100%;
+  }
+  .howto .howto_desc:nth-child(2n+1) .howto_desc_left {
+    display: none;
+  }
+  .howto_desc_right p {
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .service_h1 {
+    margin-bottom: 100px;
+  }
+  .text_right {
+    padding-left: 60px;
+  }
+  .text_left {
+    padding-left: 60px;
+  }
+  .queries {
+    padding-left: 30px;
+  }
+  .qa, .therapy, .queries, .mentoring_spec {
+    flex-direction: column;
+  }
+  .consultation, .mentoring {
+    flex-direction: column-reverse;
+  }
+  .img_left img, .img_right img {
+    width: 60%;
+  }
+  .img_left, .img_right {
+    text-align: center;
+  }
+  .howto {
+    background: url(../img/howto_bg.png) 40px 120px no-repeat;
+  }
+  .howto_desc_left, .howto_desc_right {
+    text-align: left;
+  }
+  .howto_desc_left p {
+    padding-left: 80px;
+  }
+  .howto_desc_left {
+    padding-right: 0px;
+  }
+  .howto_desc_left h4 {
+    padding-left: 80px;
+  }
+  .howto_desc_right h4 {
+    padding-left: 30px;
+  }
+  .howto .howto_desc:nth-child(2n) .howto_desc_left {
+    min-width: 100%;
+  }
+  .howto .howto_desc:nth-child(2n) .howto_desc_right {
+    display: none;
+  }
+  .howto .howto_desc:nth-child(2n+1) .howto_desc_right {
+    min-width: 100%;
+  }
+  .howto .howto_desc:nth-child(2n+1) .howto_desc_left {
+    display: none;
+  }
+  .howto_desc_right p {
+    padding-right: 0px;
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+/*------------------------------------------------------*/
+/*------------------WHO ARE YOU PAGE--------------------*/
+/*------------------------------------------------------*/
+@media all and (max-width: 480px) {
+  .whotopimg img {
+    margin: 0 10px 20px 10px;
+  }
+  .whotopimg {
+    text-align: center;
+  }
+  .whoabout {
+    margin: 50px auto 0 auto;
+  }
+  .whodescmain {
+    background: url(/img/whodescseparate.png) no-repeat 10px 15px;
+  }
+  .contain {
+    flex-direction: column;
+  }
+  .containdesc h4 {
+    margin-top: 50px;
+  }
+  .forwhodesc {
+    flex-direction: column;
+  }
+  .forwhodesc div {
+    padding: 30px 30px;
+  }
+  .whodescmain .whodesc:nth-child(2n) .whodescleft {
+    display: none;
+  }
+  .whodescmain .whodesc:nth-child(2n) .whodescright {
+    min-width: 100%;
+  }
+  .whodescmain .whodesc:nth-child(2n+1) .whodescright {
+    display: none;
+  }
+  .whodescmain .whodesc:nth-child(2n+1) .whodescleft {
+    min-width: 100%;
+    text-align: left;
+    padding-right: 0px;
+  }
+  .whodescleft1 h4, .whodescleft3 h4 {
+    padding-left: 50px;
+  }
+  .whodescleft p {
+    padding-left: 50px;
+  }
+  
+  .containfoto img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .howitgodesc {
+    padding: 0 10px;
+  }
+  .whoareyoukeys_img {
+    width: 70% !important;
+    height: 100%;
+    border: #678777 4px solid;
+    margin: 50px auto 0 auto;
+    padding: 30px 50px;
+  }
+  .whoareyoukeys_img .owl-next {
+    top: 190px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+  }
+  .whoareyoukeys_img .owl-prev {
+    top: 190px;
+    left: -25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 640px) {
+  .whotopimg img {
+    margin: 0 10px 20px 10px;
+  }
+  .whotopimg {
+    text-align: center;
+  }
+  .whoabout {
+    margin: 50px auto 0 auto;
+  }
+  .whoabout p {
+    padding: 0 10px;
+  }
+  .whodescmain {
+    background: url(/img/whodescseparate.png) no-repeat 10px 15px;
+  }
+  .contain {
+    flex-direction: column;
+  }
+  .containdesc h4 {
+    margin-top: 50px;
+  }
+  .forwhodesc {
+    flex-direction: column;
+  }
+  .forwhodesc div {
+    padding: 30px 30px;
+  }
+  .whodescmain .whodesc:nth-child(2n) .whodescleft {
+    display: none;
+  }
+  .whodescmain .whodesc:nth-child(2n) .whodescright {
+    min-width: 100%;
+  }
+  .whodescmain .whodesc:nth-child(2n+1) .whodescright {
+    display: none;
+  }
+  .whodescmain .whodesc:nth-child(2n+1) .whodescleft {
+    min-width: 100%;
+    text-align: left;
+    padding-right: 0px;
+  }
+  .whodescleft1 h4, .whodescleft3 h4 {
+    padding-left: 50px;
+  }
+  .whodescleft p {
+    padding-left: 50px;
+  }
+  .containfoto img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .howitgodesc {
+    padding: 0 10px;
+  }
+  .whoareyoukeys_img {
+    width: 70% !important;
+    height: 100%;
+    border: #678777 4px solid;
+    margin: 50px auto 0 auto;
+    padding: 30px 50px;
+  }
+  .whoareyoukeys_img .owl-next {
+    top: 190px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+  }
+  .whoareyoukeys_img .owl-prev {
+    top: 190px;
+    left: -25px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .whotopimg img {
+    width: 29%;
+  }
+  .whoabout p {
+  padding: 0 20px;
+  }
+  .containfoto img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .containdesc ul {
+    margin-left: 10px;
+  }
+  .containdesc ul, .containdesc h4 {
+    padding-left: 30px;
+  }
+  .whodescleft p {
+    padding-left: 10px;
+  }
+  .whodescright p {
+    padding-right: 10px;
+  }
+  .forwhodesc div {
+    padding: 0 30px;
+  }
+  .howitgodesc {
+    padding: 0 20px;
+  }
+}
+
+
+
+/*--------------------------------------------------*/
+/*------------------VEBINARS PAGE-------------------*/
+/*--------------------------------------------------*/
+@media all and (max-width: 480px) {
+  .veblinks {
+    flex-direction: column;
+  }
+  .veblinksleft {
+    margin-right: 0px;
+  }
+  .emotions img, .weight img, .psiho img, .dream img {
+    width: 100%;
+  }
+  .emotions, .weight, .psiho, .dream {
+    max-width: 386px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .veblinksright {
+    margin-left: 0px;
+  }
+  .containdesc ul, .containdesc h4 {
+    padding-left: 20px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .veblinks {
+    flex-direction: column;
+  }
+  .veblinksleft {
+    margin-right: 0px;
+  }
+  .emotions img, .weight img, .psiho img, .dream img {
+    width: 100%;
+  }
+  .emotions, .weight, .psiho, .dream {
+    max-width: 386px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .veblinksright {
+    margin-left: 0px;
+  }
+
+}
+
+
+@media (min-width: 641px) and (max-width: 640px) {
+  .veblinks {
+    flex-direction: column;
+  }
+  .veblinksleft {
+    margin-right: 0px;
+  }
+  .emotions img, .weight img, .psiho img, .dream img {
+    width: 100%;
+  }
+  .emotions, .weight, .psiho, .dream {
+    max-width: 386px;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .veblinksright {
+    margin-left: 0px;
+  }
+
 }

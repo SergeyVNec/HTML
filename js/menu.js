@@ -1,7 +1,9 @@
-let menuBtn = document.querySelector('.menu-btn');
-let menu = document.querySelector('.menu');
+let blockBefore = document.getElementById("block_before");
+let blockAfter = document.getElementById("block_after");
+let blockBeforeChilds = blockBefore.children;
 
-menuBtn.addEventListener('click', function(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
-});
+
+if( window.innerWidth <= 960 ){
+	blockAfter.append(blockBeforeChilds[1]);
+
+}
