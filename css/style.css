@@ -886,7 +886,7 @@ footer {
 }
 .whodescmain {
     max-width: 1200px;
-    background:url(/img/whodescseparate.png) no-repeat center 15px;
+    background:url(../img/whodescseparate.png) no-repeat center 15px;
     margin:140px auto 0 auto;
 }   
 .whodesc {
